@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -57,7 +57,7 @@ header,
 /* .delBtntag {
   color: white;
 } */
-
+/* 
 .no-button {
   background: none;
   border: none;
@@ -308,4 +308,5 @@ header,
 
 .imgBord {
   border-radius: 20px;
-}
+} */ 
+
