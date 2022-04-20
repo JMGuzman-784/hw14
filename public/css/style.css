@@ -1,0 +1,311 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header,
+.project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.bgc-w {
+  background-color: white;
+}
+
+.headerTitle {
+  font-size: xx-large;
+  font-weight: 600;
+  color: white;
+}
+
+.postBgc {
+  background-color: #a2aaad;
+  flex-grow: 1;
+}
+
+.repBtn {
+  background-color: #236192;
+  color: aliceblue;
+  padding: 0.35rem;
+  border: 0.5px black solid;
+  border-radius: 12px;
+}
+
+.repBtn:hover {
+  color: rgb(0, 229, 255);
+  transition: ease-in-out 0.4s;
+  border-radius: 0px;
+}
+
+.repBtntag:hover {
+  text-decoration: none;
+}
+
+.delBtn {
+  background-color: #6f263d;
+  color: white;
+  border: 0.5px black solid;
+  padding: 0.35rem;
+  border-radius: 12px;
+}
+
+.delBtn:hover {
+  color: rgb(255, 0, 0);
+  transition: ease-in-out 0.4s;
+  border-radius: 0px;
+}
+
+/* .delBtntag {
+  color: white;
+} */
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+.bgc-color {
+  background-color: #6f263d;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.card-border {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: rgba(173, 216, 230, 0) solid 0.01rem;
+  border-radius: 1rem;
+  box-shadow: rgb(106, 108, 109) 0.5rem 0.5rem 0.5rem 0.05rem;
+}
+
+.cardHeader {
+  border-radius: 9px 9px 0 0;
+  -webkit-animation: cardHeaderAnimation 7s infinite;
+  animation: cardHeaderAnimation 7s infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+}
+
+@keyframes cardHeaderAnimation {
+  0% {
+    background-color: white;
+  }
+
+  25% {
+    background-color: gray;
+  }
+
+  50% {
+    background-color: #6f263d;
+  }
+
+  75% {
+    background-color: #236192;
+  }
+
+  100% {
+    background-color: #a2aaad;
+  }
+}
+
+.reply-border {
+  border: rgba(173, 216, 230, 0) solid 0.01rem;
+  border-radius: 1rem;
+  box-shadow: #236192 0.5rem 0.5rem 0.5rem 0.05rem;
+}
+
+.postMessage {
+  background-color: rgb(242, 242, 242);
+  border-radius: 0 0 9px 9px;
+  margin-bottom: 0.5rem;
+}
+
+.p-05 {
+  padding: 0.5rem;
+}
+
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-15 {
+  font-size: 1.5rem;
+}
+
+.fs-3 {
+  font-size: 3rem;
+}
+
+.fs-075 {
+  font-size: 0.75rem;
+}
+
+.fxg-1 {
+  flex-grow: 1;
+}
+
+.h-05 {
+  height: 0.05rem;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mw {
+  max-width: 45rem;
+}
+
+.ml-04 {
+  margin-left: 4rem;
+}
+
+.td-n:hover {
+  text-decoration: none;
+}
+
+.bt {
+  border-top: rgb(223, 222, 222) solid 0.03rem;
+}
+
+.pl {
+  padding-left: 1.2rem;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.pt-3 {
+  padding-top: 3rem;
+}
+
+.select {
+  width: 12rem;
+  padding: 0.2rem;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.w-8 {
+  width: 8rem;
+}
+
+.w-40 {
+  width: 40rem;
+}
+
+.va-t {
+  vertical-align: top;
+}
+
+.messageBox {
+  border: black solid 0.02rem;
+  width: 25rem;
+  height: 5rem;
+}
+
+.mt-02 {
+  margin-top: 2rem;
+}
+
+.bg-img {
+  background-image: url('./../images/david_blaine_elementary.png');
+  height: 100%;
+  margin: 0;
+}
+
+.postCreate {
+  border-top: black solid 0.01rem;
+}
+
+.loginCard {
+  background-color: #a2aaad;
+  border: lightgrey solid 0.01rem;
+  border-radius: 2rem;
+  opacity: 93%;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: 4rem;
+}
+
+.loginBtn {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-inp {
+  width: 100%;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  margin: 0.625rem 0;
+  font-size: 1.2rem;
+  border: 1px solid #484848;
+  border-radius: 0.3rem;
+}
+
+.form-gr {
+  display: block;
+  width: 100%;
+}
+
+.form-gro {
+  width: 100%;
+  margin: 0.625rem 0;
+}
+
+.postCard {
+  border: rgba(173, 216, 230, 0) solid 0.01rem;
+  border-radius: 1rem;
+  box-shadow: rgb(106, 108, 109) 0.5rem 0.5rem 0.5rem 0.05rem;
+  padding: 1rem;
+}
+
+@media (min-width: 1000px) {
+  .ml-10-lg {
+    margin-left: 10rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .flex-stk-md {
+    flex-direction: column;
+  }
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.imgBord {
+  border-radius: 20px;
+}
