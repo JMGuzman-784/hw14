@@ -8,12 +8,7 @@
         class='flex p-05 justify-space-between cardHeader cardHeaderAnimation'
       >
         <div class='flex'>
-          <img
-            class='imgBord'
-            style='width: 20px;'
-            src='/images/profile icon.png'
-            alt=''
-          />
+          
           <p class='fs-1 ml-1'>
             {{post.user.name}}
 
@@ -37,6 +32,7 @@
           data-id='{{post.id}}'
         >Delete</button>
       </div>
+
 
       <div class='m-2 bt'></div>
       {{#each post.replies as |reply|}}

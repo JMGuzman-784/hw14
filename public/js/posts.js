@@ -1,5 +1,7 @@
+const postBtn = document.querySelector('#submitBtn')
 const newFormHandler = async function (event) {
   event.preventDefault();
+  console.log('post should be posted');
   const message = document.querySelector('#message-input').value;
   const categories = document.querySelector('#dropdown-input').value;
 
@@ -15,6 +17,8 @@ const newFormHandler = async function (event) {
   document.location.replace('/');
 };
 
-document
-  .querySelector('.posts-message')
-  .addEventListener('submit', newFormHandler);
+postBtn.addEventListener('click', newFormHandler);
+
+// document
+//   .querySelector('.posts-message')
+//   .addEventListener('submit', newFormHandler);

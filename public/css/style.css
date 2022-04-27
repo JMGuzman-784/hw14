@@ -57,7 +57,7 @@ header,
 /* .delBtntag {
   color: white;
 } */
-/* 
+
 .no-button {
   background: none;
   border: none;
@@ -73,6 +73,7 @@ header,
   text-decoration: underline;
 }
 
+/*
 .dollar-amount {
   color: #056605;
   font-weight: bold;
@@ -310,3 +311,76 @@ header,
   border-radius: 20px;
 } */ 
 
+.logsign {
+  grid-gap: -17px;
+  flex-wrap: wrap;
+  display: flex;
+  background-color: #4b8484;
+  padding: 4rem;
+}
+
+.logcard {
+  border-color: aquamarine;
+  border-radius: 5px; 
+  border-style: solid;
+  width: fit-content;
+  margin: auto;
+  padding: 2rem;
+  background-color: rgba(127, 255, 212, 0.329);
+}
+
+.logcard:hover {
+  background-color: aquamarine;
+  transition: all ease-in-out 0.5s;
+}
+
+.signcard {
+  border-color: aquamarine;
+  border-radius: 5px; 
+  border-style: solid;
+  width: fit-content;
+  margin: auto;
+  padding: 2rem;
+  background-color: rgba(127, 255, 212, 0.329);
+}
+
+.signcard:hover {
+  background-color: aquamarine;
+  transition: all ease-in-out 0.5s;
+}
+
+.p5 {
+  padding: 0.5rem;
+}
+
+.ml16 {
+  margin-left: 16px;
+}
+
+.bgc-blue {
+  background-color: aqua;
+}
+
+/* .header-container {
+  position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    top: 20px;
+    right: 15px;
+    background-color: blue;
+} */
+
+.capBtn {
+  position: absolute;
+  border: 1px solid red;
+  top: 10px;
+  right: 78px;
+}
+
+.logoutBtn {
+  position: absolute;
+  border: 1px solid rgb(0, 255, 13);
+  top: 10px;
+  right: 10px;
+}
