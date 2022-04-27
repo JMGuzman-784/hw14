@@ -1,3 +1,13 @@
+* {
+  font-family: monospace;
+}
+
+.mainPostCss {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(61, 207, 24);
+}
+
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities;
