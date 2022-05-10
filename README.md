@@ -14,6 +14,6 @@ Ever wanted to just talk about your day, vent about your Technology issues, or r
 
 ## Links 🖊️
 
-* Here is the link to my github 🐈‍⬛: [Github/JMGuzman-784](https://github.com/JMGuzman-784/employee-tracker)
+* Here is the link to my github 🐈‍⬛: [Github/JMGuzman-784](https://github.com/JMGuzman-784/hw14)
 
-* Here is the code 📜: [JMGuzman-784/Employee-Tracker](https://github.com/JMGuzman-784/employee-tracker/blob/main/index.js)
+* Here is the code 📜: [JMGuzman-784/Tech_Blog](https://github.com/JMGuzman-784/hw14/blob/main/server.js)
